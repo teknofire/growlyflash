@@ -1,6 +1,6 @@
 class Growlyflash.Listener
   HEADER = 'X-Message'
-  EVENTS = 'ajax:complete ajaxComplete page:load'
+  EVENTS = 'ajax:complete ajaxComplete ajaxSuccess'
   
   # Alerts stack
   class Stack extends Array
